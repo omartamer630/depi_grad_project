@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket  = "depi-terraform-statefile"
+    bucket  = "forgtech-terraform-statefile"
     key     = "terraform.tfstate"
     region  = "us-east-1"
     encrypt = true
